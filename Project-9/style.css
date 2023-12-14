@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4e83e;
+}
+
+.container {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="datetime-local"],
+button {
+    margin: 5px;
+    padding: 8px;
+}
+
+#tasks {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#taskHistory {
+    margin-top: 20px;
+    text-align: left;
+}
+
+button {
+    margin-left: 5px;
+    padding: 6px 10px;
+    cursor: pointer;
+    background-color: #860914;
+    color: #f4e4e4;
+    border: none;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #700d0d;
+}

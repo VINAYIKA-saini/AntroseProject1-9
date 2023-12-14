@@ -1,0 +1,35 @@
+Currency Converter Documentation:-
+
+Overview:-
+The Currency Converter is a simple web application that allows users to convert one currency to another based on the current exchange rates. It provides an intuitive interface for users to input the amount to be converted, select the original currency, select the target currency, and view the conversion result.
+
+Features:-
+User Input: Input field to enter the amount to be converted.
+Currency Selection: Dropdown menus to select the original and target currencies.
+Conversion: Converts the entered amount from the selected original currency to the target currency.
+Result Display: Displays the converted amount along with the selected currencies.
+
+Technologies Used
+HTML: Structuring the elements and content of the web page.
+CSS: Styling the visual layout and appearance of the web page.
+JavaScript: Handling user interactions and performing currency conversion logic.
+API Integration: Utilizes the ExchangeRate-API to fetch real-time exchange rates.
+
+Implementation
+HTML Structure
+Header: Contains the title of the Currency Converter.
+Converter Section: Includes input fields for amount, dropdowns for currency selection, a conversion button, and a result display area.
+CSS Styling
+Fonts: Utilizes Arial and sans-serif fonts for readability.
+Background: Applies a linear gradient background for visual appeal.
+Layout: Sets margins, padding, and borders for structure and aesthetics.
+JavaScript Logic
+convert() Function: Retrieves user input, fetches exchange rates using the API, calculates the converted amount, and displays the result dynamically on the web page.
+API Integration: Uses the ExchangeRate-API to access the latest exchange rates based on the selected currencies.
+
+
+Usage
+Enter Amount: Input the amount to be converted in the designated field.
+Select Currencies: Choose the original and target currencies from the dropdown menus.
+Convert: Click the "Convert" button to trigger the conversion.
+View Result: The converted amount will be displayed below the button.

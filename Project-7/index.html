@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">COLOUR PICKER</h1>
+        <div class="color-box" id="color-box"></div>
+        <div class="controls">
+            <input type="color" id="color-picker" value="#ffffff">
+            <label for="color-picker">Choose a color:</label>
+            <div class="hsv-controls">
+                <label for="hue">Hue:</label>
+                <input type="range" id="hue" min="0" max="360" value="0">
+                <label for="saturation">Saturation:</label>
+                <input type="range" id="saturation" min="0" max="100" value="100">
+                <label for="value">Value:</label>
+                <input type="range" id="value" min="0" max="100" value="100">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

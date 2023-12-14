@@ -1,0 +1,37 @@
+Color Changer Documentation:-
+
+Overview
+The "Color Changer" is a simple web application that enables users to change the background color of a designated box by clicking on predefined color buttons. It provides a visual interface for selecting colors and instantly applying them to the box.
+
+HTML Structure
+The HTML structure consists of:
+
+Title and Header: Title and heading indicating the purpose of the application.
+Color Box: A box element (inbox-box) whose background color will change.
+Color Buttons: Multiple buttons representing different colors, each with an onclick attribute triggering the changeColor() function.
+
+
+
+CSS Styling
+The CSS styling includes:
+
+Font and Background: Setting the font family and a gradient background for the webpage.
+Container and Box Styling: Styling the container, box, and buttons for a visually appealing interface.
+
+
+
+JavaScript Functionality
+The changeColor() function:
+
+Color Change: Modifies the background color of the designated box (inbox) to the selected color.
+Color Display: Updates the content of the box to display the color name and its hexadecimal value.
+Audio Feedback: Plays a sound effect (click.mp3) to provide user feedback upon color selection.
+
+
+
+
+Usage
+Color Selection: Click on any color button to change the background color of the box.
+Visual Feedback: The box background instantly changes to the selected color.
+Color Information: Color name and its hexadecimal value are displayed within the box.
+Audio Feedback: A click sound accompanies every color selection for user feedback.

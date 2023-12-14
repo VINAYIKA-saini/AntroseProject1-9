@@ -1,0 +1,37 @@
+Form Validation Documentation:-
+
+Overview
+The "Form Validation" webpage is designed to validate user inputs in a form before submission. It ensures that users provide correct and formatted information for various fields. The validation process employs HTML5 form validation attributes along with custom JavaScript functions for more complex checks.
+
+HTML Structure
+The HTML structure consists of:
+
+Form: The form contains input fields for Name, URL, Email, Password, Confirm Password, Phone Number, and File Upload (PDF). It also has a submit button.
+Attributes: The inputs utilize various HTML5 attributes (type, required, accept, etc.) for basic validation.
+Submit: On submission, it triggers the JavaScript function validateForm().
+
+
+CSS Styling
+The CSS styling includes:
+
+Visual Elements: Defines the visual appearance of form elements, such as borders, padding, and background colors.
+Invalid/Valid Inputs: Highlights invalid inputs in red and valid inputs in green.
+
+
+JavaScript Validation Logic
+The validateForm() function:
+
+Gets Input Values: Retrieves values entered by the user for validation.
+Regex Patterns: Defines regex patterns for Name, Email, Password, and Phone Number validations.
+Validation Checks: Performs various validation checks for each input field.
+Highlights: Changes border colors to red for invalid inputs and green for valid inputs.
+Custom Validation: Implements custom checks for specific requirements (e.g., password strength, matching passwords, file type).
+Form Reset: Resets the form after successful submission.
+
+
+Usage
+Input Fields: Enter details in the respective fields (Name, Email, Password, etc.).
+Validation: As you input data, the form validates in real-time.
+Submission: On clicking "Submit," it checks for valid inputs.
+Validation Feedback: Incorrect inputs are highlighted in red, correct inputs in green.
+Error Handling: Invalid inputs prevent form submission with appropriate error messages.

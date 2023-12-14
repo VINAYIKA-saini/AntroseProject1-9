@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Color Changer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Colour Changer</h1>
+        <div class="inbox-box" id="inbox"></div>
+        <div class="buttons-container">
+            <button class="color-btn" style="background-color: #FF0000;" onclick="changeColor('#FF0000')">Red</button>
+            <button class="color-btn" style="background-color: #00FF00;" onclick="changeColor('#00FF00')">Green</button>
+            <button class="color-btn" style="background-color: #0000FF;" onclick="changeColor('#0000FF')">Blue</button>
+            <button class="color-btn"style="background-color: #FFA500;"onclick="changeColor('#FFA500')">Orange</button>
+            <button class="color-btn"style="background-color:#FFFF00;" onclick="changeColor('#FFFF00')">Yellow</button>
+            <button class="color-btn"style="background-color:#808000;" onclick="changeColor('#808000')">Olive</button>
+            <button class="color-btn" style="background-color:#800080;"onclick="changeColor('#800080')">Purple</button>
+            <button class="color-btn"style="background-color:#00FFFF;" onclick="changeColor('#00FFFF')">Aqua</button>
+            <button class="color-btn"style="background-color:#000000;" onclick="changeColor('#000000')">Black</button>
+            <button class="color-btn"style="background-color:#C0C0C0;" onclick="changeColor('#C0C0C0')">Silver</button>
+           
+        </div>
+        
+        <audio id="clickSound" src="click.mp3"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

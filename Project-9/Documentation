@@ -1,0 +1,51 @@
+To-Do List Application Documentation:-
+
+Introduction
+The To-Do List Application is a web-based tool created using HTML, CSS, and JavaScript. Its purpose is to help users manage their tasks efficiently. This application provides functionalities such as task addition, deletion, completion, and a task history feature. Additionally, it includes real-time date and time display and an audio alert system to notify users when tasks are due to start.
+
+Application Components
+HTML Structure
+The HTML file (index.html) sets up the user interface components:
+
+A heading displaying "To-Do List."
+Input fields for entering task names and setting due dates/times.
+Buttons for adding tasks, deleting all tasks, and managing individual tasks.
+Sections to display active tasks and completed task history.
+
+CSS Styling
+The CSS file (styles.css) styles the HTML elements:
+
+Defines the layout, alignment, and spacing of elements for a user-friendly interface.
+Styles buttons, input fields, and container elements to enhance visual appeal and usability.
+JavaScript Functionality
+The JavaScript file (script.js) contains the application logic:
+
+Manages task addition, deletion, completion, and task history operations.
+Handles real-time date and time display.
+Implements an audio alert system for task start times.
+
+
+Usage
+
+Adding Tasks
+Task Input: Enter the task name in the provided input field.
+Date and Time: Specify the due date and time using the corresponding input field.
+Adding Task: Click the "Add Task" button to add the task to the active tasks list.
+
+
+Task Management
+Completing Tasks: Click the "Complete" button to mark a task as completed, moving it to the task history section.
+Editing Tasks: Click the "Edit" button to change the task name.
+Deleting Tasks: Click the "Delete" button to remove a specific task from the active list.
+
+Task History
+Completed tasks are displayed in the task history section.
+Users can mark tasks as incomplete within the history section.
+
+
+Limitations
+The audio alert feature might not function due to browser restrictions related to autoplay policies.
+
+
+Conclusion
+The To-Do List Application offers a straightforward yet effective solution for managing tasks. Its user-friendly interface and range of features facilitate task organization, making it a valuable tool for individuals seeking efficient task management.

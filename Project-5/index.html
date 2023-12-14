@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Recipe Book</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Recipe Book</h1>
+  </header>
+
+  <main>
+    <section class="recipe-form">
+      <h2>Add Recipe</h2>
+      <form id="recipeForm">
+        <input type="text" id="recipeTitle" placeholder="Recipe Title" required>
+        <textarea id="recipeDescription" placeholder= "Ingredients"required></textarea>
+        <textarea id="recipeIngredients" placeholder="Recipe Description" required></textarea>
+        <div>
+          <button type="submit">Add Recipe</button>
+          <!-- <button type="button" onclick="deleteRecipe()">Delete Recipe</button> -->
+          <button type="button" onclick="clearForm()">Clear Form</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="recipe-history">
+      <h2>Recipe History</h2>
+      <ul id="recipeList"></ul>
+    </section>
+  </main>
+
+    <footer>
+        <p>&copy; 2023 Recipe Book</p>
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

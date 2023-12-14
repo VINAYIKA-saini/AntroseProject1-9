@@ -1,0 +1,40 @@
+Documentation:-
+
+Arithmetic Operations Project Documentation
+Overview
+The Arithmetic Operations project is a simple web application built using HTML, CSS, and JavaScript. It allows users to perform arithmetic operations (+, -, *, /, %) on a given number and displays the results in a console-like box.
+
+Features
+Input Box: Users can input a number into the provided input box.
+
+Operation Boxes: Five colored boxes represent different arithmetic operations (+, -, *, /, %). Hovering over these boxes triggers the corresponding operation with the input number and displays the result in the console box.
+
+Console Box: A box serves as a console, displaying the results of arithmetic operations performed based on user input and mouse interactions.
+
+Clear Console Button: Users can clear the console box by clicking the "Clear Console" button.
+
+Project Structure
+HTML (index.html)
+Contains the structure of the web page with input fields, operation boxes, console box, and clear console button.
+Links to the CSS stylesheet (styles.css) and JavaScript file (script.js).
+CSS (styles.css)
+Defines the styling and layout of the web page elements, including colors, sizes, margins, and button styles.
+JavaScript (script.js)
+Handles user interactions and logic for performing arithmetic operations.
+Retrieves input values, listens for hover events on operation boxes, performs operations, and displays results in the console box.
+Includes a function to clear the contents of the console box when the "Clear Console" button is clicked.
+Usage
+Entering a Number:
+
+Type a numerical value into the input box and press Enter.
+Performing Operations:
+
+Hover over any of the colored operation boxes (representing arithmetic operations) to see the result of that operation based on the entered number.
+Clearing the Console:
+
+Click the "Clear Console" button to remove all data from the console box.
+Customization
+Developers can modify the styles (styles.css) to change colors, sizes, fonts, and layout.
+The functionality in the JavaScript file (script.js) can be extended or modified for additional arithmetic operations or user interactions.
+Conclusion
+The Arithmetic Operations project provides a simple yet interactive interface for performing basic arithmetic operations and viewing results in a console-like environment.

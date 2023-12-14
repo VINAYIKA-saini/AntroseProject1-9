@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a9bc2;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.operation-box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    line-height: 100px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 8px;
+    text-align: center;
+    /* Aligns text horizontally */
+    vertical-align: middle;
+    /* Aligns box vertically */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+        /* Darker shadow effect */
+   
+}
+
+   
+
+.addition {
+    background-color: #3498db;
+}
+
+.subtraction {
+    background-color: #e74c3c;
+}
+
+.multiplication {
+    background-color: #2ecc71;
+}
+
+.division {
+    background-color: #f39c12;
+}
+
+.modulo {
+    background-color: #9b59b6;
+}
+
+.console-box {
+    width: 100%;
+    height: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    color: white;
+    background-color: #000;
+    overflow-y: scroll;
+}
+
+#clearConsoleBtn {
+    padding: 8px 16px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#clearConsoleBtn:hover {
+    background-color: #c0392b;
+}
+
+
+
+
+

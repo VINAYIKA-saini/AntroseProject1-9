@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #53f0ac 100%, #ebedee 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.inbox-box {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border: 2px solid #000;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.color-btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.color-btn:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.color-btn:active {
+    transform: scale(0.95);
+}

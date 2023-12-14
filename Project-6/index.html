@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Currency Converter</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+     background: linear-gradient(290deg, #33967f 80%, #090909 60%);
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+        
+        .converter {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="converter">
+        <h2>Currency Converter</h2>
+        <input type="number" id="amount" placeholder="Enter Amount"><br><br>
+
+        <select id="fromCurrency">
+            <option value="INR">INR - Indian Rupee</option>
+            <option value="USD">USD - United States Dollar</option>
+            <option value="EUR">EUR - Euro</option>
+            <option value="GBP">GBP - British Pound Sterling</option>
+            <option value="JPY">JPY - Japanese Yen</option>
+            <option value="AUD">AUD - Australian Dollar</option>
+            <option value="CAD">CAD - Canadian Dollar</option>
+            <option value="CHF">CHF - Swiss Franc</option>
+            <option value="CNY">CNY - Chinese Yuan</option>
+            <option value="SEK">SEK - Swedish Krona</option>
+            <option value="NZD">NZD - New Zealand Dollar</option>
+           
+            <!-- Add more currency options as needed -->
+        </select>
+
+        <select id="toCurrency">
+        <option value="INR">INR - Indian Rupee</option>
+        <option value="USD">USD - United States Dollar</option>
+        <option value="EUR">EUR - Euro</option>
+        <option value="GBP">GBP - British Pound Sterling</option>
+        <option value="JPY">JPY - Japanese Yen</option>
+        <option value="AUD">AUD - Australian Dollar</option>
+        <option value="CAD">CAD - Canadian Dollar</option>
+        <option value="CHF">CHF - Swiss Franc</option>
+        <option value="CNY">CNY - Chinese Yuan</option>
+        <option value="SEK">SEK - Swedish Krona</option>
+        <option value="NZD">NZD - New Zealand Dollar</option>
+        
+            <!-- Add more currency options as needed -->
+        </select><br><br>
+
+        <button onclick="convert()">Convert</button><br><br>
+
+        <h3>Result:</h3>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        function convert() {
+            let amount = document.getElementById('amount').value;
+            let fromCurrency = document.getElementById('fromCurrency').value;
+            let toCurrency = document.getElementById('toCurrency').value;
+
+            // Fetching exchange rates from a free API (Replace 'YOUR_API_KEY' with your API key)
+            fetch(`https://api.exchangerate-api.com/v4/latest/${fromCurrency}`)
+                .then(response => response.json())
+                .then(data => {
+                    let exchangeRate = data.rates[toCurrency];
+                    let convertedAmount = (amount * exchangeRate).toFixed(2);
+
+                    document.getElementById('result').innerText = `${amount} ${fromCurrency} = ${convertedAmount} ${toCurrency}`;
+                })
+                .catch(error => {
+                    console.log('Error:', error);
+                });
+        }
+    </script>
+</body>
+
+</html>

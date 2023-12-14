@@ -1,0 +1,37 @@
+Recipe Book Documentation
+
+
+Overview
+The "Recipe Book" web application enables users to manage their recipes. It offers functionality to add, edit, and delete recipes, providing a convenient interface for users to maintain their culinary creations.
+
+HTML Structure
+The HTML structure includes:
+
+Header: Title of the application, "Recipe Book".
+Main Section: Divided into two sections:
+Recipe Form: Allows users to add or edit recipes, consisting of inputs for recipe title, description, ingredients, and buttons for actions.
+Recipe History: Displays a list of added recipes along with edit and delete buttons.
+
+
+CSS Styling
+The CSS styles provide an attractive and user-friendly interface:
+
+Styling for Form and History: Specific styling for the form, history sections, inputs, buttons, and list items.
+Button Styles: Unique styles for different types of buttons like "Add," "Edit," and "Delete."
+Background and Font: Background gradient and font-family for a consistent look.
+
+
+JavaScript Functionality
+The JavaScript functions handle various actions within the application:
+
+addEditRecipe(event): Adds or edits a recipe based on user inputs and displays it in the recipe history section with edit and delete buttons.
+editRecipe(listItem, title, description, ingredients): Populates the form fields for editing when the "Edit" button is clicked.
+deleteRecipe(): Deletes the last added recipe from the list.
+clearForm(): Clears the form fields after adding or editing a recipe.
+
+
+Usage
+Adding a Recipe: Enter the recipe details in the form and click "Add Recipe."
+Editing a Recipe: Click "Edit" on a recipe to populate the form fields for editing.
+Deleting a Recipe: Click "Delete" on a recipe to remove it from the list.
+Clearing the Form: Click "Clear Form" to reset the form fields.

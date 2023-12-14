@@ -1,0 +1,35 @@
+Number Operations Documentation
+Overview
+The "Number Operations" webpage is a tool designed to perform various operations on a given number. It offers functionalities such as determining whether the number is prime, strong, or Armstrong, calculating its factorial, generating the Fibonacci series up to that number, and converting Fahrenheit to Celsius.
+
+HTML Structure
+The HTML structure consists of:
+
+Title and Header: Title indicating the purpose of the application and a heading.
+Input Field and Button: An input field (inputNumber) to enter a number and a button to trigger the operations.
+Result Display: A div element (result) to display the results of the operations.
+
+
+CSS Styling
+The CSS styling includes:
+
+Font and Background: Font family and a linear gradient background for the webpage.
+Container and Input Styling: Styling for alignment and appearance of the input field and button.
+
+
+JavaScript Functionality
+The JavaScript functions:
+
+isPrime(): Checks if the number is prime.
+isStrong(): Checks if the number is a strong number.
+isArmstrong(): Checks if the number is an Armstrong number.
+factorial(): Calculates the factorial of the number.
+fibonacci(): Generates the Fibonacci series up to the number.
+convertFahrenheitToCelsius(): Converts Fahrenheit to Celsius.
+performOperations(): Retrieves the entered number, performs the operations, and displays the results in the result div.
+
+
+Usage
+Enter Number: Input a number into the provided field.
+Perform Operations: Click the "Perform Operations" button to execute the operations.
+View Results: The results of various operations performed on the entered number are displayed in the result area.

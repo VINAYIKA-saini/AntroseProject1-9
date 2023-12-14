@@ -1,0 +1,28 @@
+Weather App Documentation
+
+Overview
+The "Weather App" allows users to retrieve and display weather information for a specific city. It utilizes the OpenWeatherMap API to fetch real-time weather data based on the user's input of the city name.
+
+HTML Structure
+Header: Displays the title of the application, "Weather App."
+Input Section: Contains an input field for the user to enter the city name and a "Search" button to initiate the weather search.
+Weather Information Section: Shows the retrieved weather information for the city entered by the user, including city name, weather icon, temperature, and weather description.
+
+CSS Styling
+Overall Styling: Provides a centered layout with a background gradient for visual appeal.
+Input and Button Styling: Defines styles for the input field and search button to maintain consistency.
+Weather Information Styling: Formats the weather details such as temperature, weather icon, and description for clear presentation.
+
+JavaScript Functionality
+Fetching Weather Data: Utilizes the OpenWeatherMap API to retrieve weather data based on the provided city name.
+Displaying Weather Data: Renders the retrieved data, including city name, weather icon, temperature, and description, dynamically onto the webpage.
+
+Usage
+Search for Weather: Enter the name of a city in the input field and click the "Search" button to get the current weather information for that city.
+View Weather Details: Once the search is successful, the city name, weather icon, temperature, and description will be displayed.
+
+Notes
+API Key: Replace '7d939c06ec5105a806c2ab1ca5838e9d' with your own OpenWeatherMap API key in the script.js file.
+Error Handling: If the city name is not provided or if there's an error in fetching data, appropriate alerts will be shown to the user.
+
+This documentation outlines the functionalities, structure, usage instructions, and notes for the "Weather App." It provides a straightforward interface for users to access current weather information for any desired city. Adjustments and enhancements can be made to tailor the application further, based on specific requirements or preferences.

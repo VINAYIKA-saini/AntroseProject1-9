@@ -1,0 +1,41 @@
+Color Picker Tool Documentation:-
+
+Overview
+This Color Picker Tool is a simple web-based application that allows users to select a color using various methods and apply it to change the background color of the screen. It provides options to choose colors through a color picker input and offers fine control using sliders for Hue, Saturation, and Value (HSV).
+
+Files Included:-
+index.html: Contains the HTML structure of the color picker tool.
+styles.css: Defines the styles for the HTML elements to create the visual appearance.
+script.js: Contains JavaScript code responsible for the functionality of the color picker tool.
+
+HTML Structure (index.html)
+Color Box: <div class="color-box" id="color-box"></div> - Represents the area displaying the selected color.
+Color Picker Input: <input type="color" id="color-picker" value="#ffffff"> - Allows direct color selection using a color picker.
+
+HSV Controls:
+Hue: <input type="range" id="hue" min="0" max="360" value="0">
+Saturation: <input type="range" id="saturation" min="0" max="100" value="100">
+Value: <input type="range" id="value" min="0" max="100" value="100">
+These sliders offer control over the Hue, Saturation, and Value components of the selected color.
+
+CSS Styles (styles.css)
+Defines the visual appearance of the color picker tool, including layout, colors, and sizing of elements.
+
+JavaScript Functionality (script.js)
+updateColor(): Updates the selected color based on the current values of Hue, Saturation, and Value.
+Event Listeners:
+colorPicker: Listens to changes in the color picker input and updates the color box accordingly.
+hueInput, saturationInput, valueInput: Listens to changes in HSV sliders and triggers the update of the selected color.
+Initialization: Initializes the color picker tool by setting default values and colors.
+
+
+Usage
+Open the index.html file in a web browser.
+Use the color picker input to directly choose a color.
+Adjust the HSV sliders to fine-tune the selected color.
+The background color of the screen will change dynamically based on the selected color.
+
+
+Customization
+Adjust the styles in styles.css to modify the appearance of the color picker tool.
+Modify JavaScript functions in script.js to add additional functionalities or customize behaviors.
